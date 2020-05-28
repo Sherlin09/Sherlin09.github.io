@@ -1,13 +1,167 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página personal en GitHub</title>
+    <title>Portafolio de Sherlin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>Bienvenidos a mi página personal Sherlin09</h1>
-    <hr>
-    <p>Esta es mi pagina en GitHub Pages</p>
+    <header>
+        <div class="contenedor">
+           <nav class="menu">
+               <a href="#">Acerca de </a>
+               <a href="#">Trabajos </a>
+               <a href="#">Contacto </a>
+           </nav> 
+
+           <div class="contenedor-texto">
+               <div class="texto">
+                   <h1 class="nombre">Sherlin Toriz Pérez</h1>
+                   <h2 class="profesion">Desarrollador Web</h2>
+               </div>
+           </div>
+           
+        </div>
+    </header>
+    
+    <section class="main">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/9.png" width="155" alt="Sherlin Toriz Pérez">
+                </div>
+
+                <div class="texto">
+                    <h3 class="titulo">Acerca de</h3>
+                    <p>Un<span class="bold"> desarrollador web es un programador</span> especializado, o
+                       dedicado de forma específica, en desarrollar aplicaciones
+                       de la World Wide Web o aplicaciones distribuidas en red 
+                       que se <span class="bold">ejecutan mediante HTTP</span> desde un servidor web a un
+                       navegador web
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="trabajos">
+            <div class="contenedor">
+               <h3 class="titulo">Trabajos</h3> 
+               <div class="contenedor-trabajos">
+
+                   <div class="trabajo">
+                       <div class="thum">
+                           <img src="img/1.jpg" alt="Trabajo">
+                       </div>
+                       <div class="descripcion">
+                           <p class="nombre">Nissan</p>
+                           <p class="categoria">HTML-CSS-JS</p>
+                       </div>
+                   </div>
+
+                   <div class="trabajo">
+                        <div class="thum">
+                            <img src="img/2.jpg" alt="Trabajo">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nissan</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                        <div class="thum">
+                            <img src="img/3.jpg" alt="Trabajo">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nissan</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                         <div class="thum">
+                             <img src="img/4.jpg" alt="Trabajo">
+                         </div>
+                         <div class="descripcion">
+                             <p class="nombre">Nissan</p>
+                             <p class="categoria">HTML-CSS-JS</p>
+                         </div>
+                     </div>
+
+                     <div class="trabajo">
+                        <div class="thum">
+                            <img src="img/5.jpg" alt="Trabajo">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Nissan</p>
+                            <p class="categoria">HTML-CSS-JS</p>
+                        </div>
+                    </div>
+
+                    <div class="trabajo">
+                         <div class="thum">
+                             <img src="img/6.jpg" alt="Trabajo">
+                         </div>
+                         <div class="descripcion">
+                             <p class="nombre">Nissan</p>
+                             <p class="categoria">Bootstrap</p>
+                         </div>
+                     </div>
+
+                     <div class="trabajo">
+                         <div class="thum">
+                             <img src="img/7.jpg" alt="Trabajo">
+                         </div>
+                         <div class="descripcion">
+                             <p class="nombre">Nissan</p>
+                             <p class="categoria">PHP</p>
+                         </div>
+                     </div>
+
+                     <div class="trabajo">
+                          <div class="thum">
+                              <img src="img/8.jpg" alt="Trabajo">
+                          </div>
+                          <div class="descripcion">
+                              <p class="nombre">Nissan</p>
+                              <p class="categoria">HTML-CSS-PHP</p>
+                          </div>
+                      </div>
+
+               </div>
+            </div>
+        </section>
+        
+    </section>
+
+    <footer>
+        <section class="contacto">
+             <div class="contenedor">
+            
+                <h3 class="titulo">Contacto</h3>
+                <form class="formulario" action="">
+                    <input type="text" placeholder="Nombre" name="nombre" required>
+                    <input type="email" placeholder="Correo" name="correo" required>
+                    <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                    <input class="boton" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+       
+
+        <section class="redes-sociales">
+            <div class="contenedor">
+                <a class="twitter" href="https://fontawesome.com/icons/twitter?style=brands" ><i class="fa fa-twitter"></i></a>
+                <a class="facebook" href="https://fontawesome.com/icons/facebook-f?style=brands" ><i class="fa fa-facebook-f"></i></a>
+                <a class="youtube" href="https://fontawesome.com/icons/youtube?style=brands"><i class="fa fa-youtube"></i></a>
+                <a class="github" href="https://fontawesome.com/icons/github?style=brands"><i class="fa fa-github"></i></a>
+                <a class="instagram" href="https://fontawesome.com/icons/instagram?style=brands" ><i class="fa fa-instagram"></i></a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
